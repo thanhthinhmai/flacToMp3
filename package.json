@@ -1,0 +1,26 @@
+{
+  "name": "flactomp3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhthinhmai/flacToMp3.git"
+  },
+  "author": "dom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanhthinhmai/flacToMp3/issues"
+  },
+  "homepage": "https://github.com/thanhthinhmai/flacToMp3#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "caporal": "^0.6.0",
+    "child-process": "^1.0.2",
+    "shell": "^0.3.2",
+    "shelljs": "^0.7.7"
+  }
+}

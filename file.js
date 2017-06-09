@@ -34,7 +34,7 @@ class Scan {
                     console.log(file)
                 }
             });
-            // resolve(flacFiles);
+            resolve(flacFiles);
             
         });
     }
@@ -65,5 +65,5 @@ class Scan {
     }
 }
 let scan = new Scan();
-let dirname = '/home/dom/Desktop/NodeJS/flacToMp3/Adele'
-scan.listAllFlac(dirname)
+
+scan.listAllFlac(__dirname)
